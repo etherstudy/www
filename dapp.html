@@ -15,7 +15,22 @@
 		<h3 class="sub_title">Step 1. 실습환경 준비</h3>
 		<div class="content">
 			<ol>
-				<li>환경설정</li>
+				
+				<li>Geth Private network 접속</li>
+				<p>콘솔에 아래와 같이 입력하여 Private network에 접속하세요.</p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
+				<tr>
+				<td>
+					<p><code>$ geth --datadir "./ether_study" --networkid 15    --port 8080 --rpc --rpccorsdomain "*" --rpcapi "admin,db,eth,miner,net,txpool,personal,web3" console
+					</code></p>
+				</td>
+				</tr>
+				</table>
+				<br><br>
+				<h3 class="step_final"> 프롬프트가 깜빡이는지 확인하세요.</h3>
+				<img src="img/geth_run.png" width="800px" border="1px">
+	
+				<li>Dapp 환경설정</li>	
 				<p>콘솔에 아래와 같이 입력하여 환경을 설정하세요.</p>
 				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
 					<tr>
@@ -24,7 +39,7 @@
 								/$ node -v  <a href="https://nodejs.org/ko/download/
 									">설치링크</a><br>
 								/$ npm -v<br>
-								/$ express --version <font color=blue>npm install express -g</font><br>
+								/$ npm install express-generator -g</font><br>
 								</p>
 							        /$ git clone https://github.com/etherstudy/crowdfund.git <a href="https://github.com/etherstudy/crowdfund.git">Git링크</a><br>
 								<font color=gray>
@@ -42,21 +57,12 @@
 				</table>
 				<br><br>
 				<li>작동확인</li>
-				<p>브라우저로 http://127.0.0.1:3000에 접속하여 Express를 사용할 수 있는 지 확인하세요.</p>
+				<p>완료 조건 : 브라우저로 http://127.0.0.1:3000에 접속하여 Express를 사용할 수 있는 지 확인하세요.</p>
 				<br><br>
-				<li>Geth Private network 접속</li>
-				<p>콘솔에 아래와 같이 입력하여 Private network에 접속하세요.</p>
-				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
-					<tr>
-						<td>
-							<p><code>$ geth --datadir "./ether_study" --networkid 15    --port 8080 --rpc --rpccorsdomain "*" --rpcapi "admin,db,eth,miner,net,txpool,personal,web3" console
-							</code></p>
-						</td>
-					</tr>
-				</table>
-				<br><br>
-				<h3 class="step_final">완료조건: 프롬프트가 깜빡이는지 확인하세요.</h3>
-				<img src="img/geth_run.png" width="800px" border="1px">
+				
+
+	
+	
 			</ol>
 		</div>
 	</div>
