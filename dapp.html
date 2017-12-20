@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Session 4. dApp 실습 가이드</title>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/earlyaccess/nanumgothic.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/earlyaccess/nanumgothiccoding.css" rel="stylesheet">
+	<link href="css/Styles.css" rel="stylesheet">
+</head>
+<body>
+	<h1 id="main_title" align="center">Session 4. dApp 실습 가이드</h1>
+
+<!--Step 1-->
+	<div class="steps">
+		<h3 class="sub_title">Step 1. 실습환경 준비</h3>
+		<div class="content">
+			<ol>
+				<li>환경설정</li>
+				<p>콘솔에 아래와 같이 입력하여 환경을 설정하세요.</p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
+					<tr>
+						<td>
+							<p><code>
+								/$ node -v<br>
+								/$ npm -v<br>
+								/$ npm install express -g<br>
+								/$ express crowdfund<br>
+								/$ cd crowdfund;<br>
+								/crowdfund $ npm install ethereum/web3.js --save<br>
+								/crowdfund$ npm install<br>
+								/crowdfund$ npm start //구동시작<br>
+							</code></p>
+						</td>
+					</tr>
+				</table>
+				<br><br>
+				<li>작동확인</li>
+				<p>브라우저로 http://127.0.0.1:3000에 접속하여 Express를 사용할 수 있는 지 확인하세요.</p>
+				<br><br>
+				<li>Geth Private network 접속</li>
+				<p>콘솔에 아래와 같이 입력하여 Private network에 접속하세요.</p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
+					<tr>
+						<td>
+							<p><code>$ geth --datadir "./ether_study" --networkid 15    --port 8080 --rpc --rpccorsdomain "*" --rpcapi "admin,db,eth,miner,net,txpool,personal,web3" console
+							</code></p>
+						</td>
+					</tr>
+				</table>
+				<br><br>
+				<h3 class="step_final">완료조건: 프롬프트가 깜빡이는지 확인하세요.</h3>
+				<img src="img/geth_run.png" width="800px" border="1px">
+			</ol>
+		</div>
+	</div>
+	
+<!--Step 2-->
+	<div class="steps">
+		<h3 class="sub_title">Step 2. 크라우드 펀딩 시나리오</h3>
+		<div class="content">
+			<ol>
+				<img src="img/Session4_step2.png" width="800px" border="1px">
+			</ol>
+		</div>
+	</div>
+
+<!--Step 3-->
+	<div class="steps">
+		<h3 class="sub_title">Step 3. Web3 / Contract연동</h3>
+		<div class="content">
+			<ol>
+				<li>Web3 연동</li>
+				<p>콘솔에 아래와 같이 입력하여 Web3 모듈을 설치하고 Localhost에 Http로 연결하세요.</p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
+					<tr>
+						<td>
+							<p><code>var Web3 = require('web3');<br>
+									var web3 = new Web3(new Web3.providers.HttpProvider("http://127.0.0.1:8545"));</code></p>
+						</td>
+					</tr>
+				</table><br><br>
+				<li>Contract 연동</li>
+				<p>ABI와 Contract Address로 Contract를 호출하세요.</p><br>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
+					<tr>
+						<td style="word-break: break-all">
+							<p><code>// crowdFund Contract<br>
+								var walletTokenAbi = [<ABI 입력>];<br>
+								var TokenContract = web3.eth.contract(walletTokenAbi).at(<TokenAddress 입력>);<br><br>
+								// crowdFund Contract<br>
+								var crowdFundAbi = [<ABI 입력>];<br>
+								var CrowdFundContract = web3.eth.contract(crowdFundAbi).at(<CrowdFundAddress 입력>)</code></p>
+						</td>
+					</tr>
+				</table><br><br>
+			</ol>
+		</div>
+	</div>
+
+<!--Step 4-->
+	<div class="steps">
+		<h3 class="sub_title">Step 4. Get / Set</h3>
+		<div class="content">
+			<ol>
+				<li>Contract Get</li>
+				<p><컨트랙트>.<함수명> 으로 컨트랙트의 Public 함수를 호출할 수 있습니다.</p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
+					<tr>
+						<td>
+							<p><code>// 토큰 장부 조회 (balanceOf)<br>
+									&nbsp;exports.getTokenAmount = function (address) {<br>
+								   &nbsp;&nbsp;return TokenContract.balanceOf(address);><br>
+									&nbsp;};</code></p>
+						</td>
+					</tr>
+				</table><br>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
+					<tr>
+						<td>
+							<p><code>// 펀딩 장부 조회 (balanceOf)<br>
+									&nbsp;exports.getFundAmount = function (address) {<br>
+								   &nbsp;&nbsp;return CrowdFundContract.balanceOf(address);><br>
+									&nbsp;};</code></p>
+						</td>
+					</tr>
+				</table><br><br>
+				<li>Set(SendTransaction)</li>
+				<p></p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
+					<tr>
+						<td>
+							<p><code>// 이더 트랜잭션 수행<br>
+										&nbsp;exports.sendTransaction =<br>  
+										<br>
+										  &nbsp;&nbsp;function(from,to,value,gas,callback) {<br>
+										  <br>
+										    &nbsp;&nbsp;&nbsp;web3.eth.sendTransaction({<br>
+										        &nbsp;&nbsp;&nbsp;&nbsp;to: to,<br>
+										        &nbsp;&nbsp;&nbsp;&nbsp;from: from,<br>
+										        &nbsp;&nbsp;&nbsp;&nbsp;value: web3.toWei(value,'ether'),<br>
+										        &nbsp;&nbsp;&nbsp;&nbsp;gas: 100000}, function (err, hash) {<br>
+										        &nbsp;&nbsp;&nbsp;&nbsp;if (err) {<br>
+										        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return callback(err, '');<br>
+										        &nbsp;&nbsp;&nbsp;&nbsp;} else {<br>
+										        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;eturn callback(null, hash);<br>
+										        &nbsp;&nbsp;&nbsp;&nbsp;}<br>
+										    &nbsp;&nbsp;&nbsp;});<br>
+										&nbsp;};</code></p>
+						</td>
+					</tr>
+				</table><br><br>
+			</ol>
+		</div>
+	</div>
+</body>
+</html>
