@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Session 2. Geth 실습</title>
-
+	<title>Session 2. Geth 실습 가이드</title>
+	<meta charset="utf-8">
 	<link href="https://fonts.googleapis.com/earlyaccess/nanumgothic.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/earlyaccess/nanumgothiccoding.css" rel="stylesheet">
 	<link href="css/Styles.css" rel="stylesheet">
 </head>
 <body>
-	<h1 id="main_title" align="center">Session 2. Geth 실습</h1>
+	<h1 id="main_title" align="center">Session 2. Geth 실습 가이드</h1>
 
 <!--Step 1-->
 	<div class="steps">
 		<h3 class="sub_title">Step 1. Geth 설치 및 실행</h3>
 		<div class="content">
 			<ol>
-				<li>Geth 다운로드 </li>
+				<li>Geth 다운로드</li>
 				<p>운영체제에 맞는 Geth 클라이언트를 다운로드하세요.<a href="https://geth.ethereum.org/downloads/" target="_blank">링크</a></p><br><br>
 				<li>Geth 설치하기</li>
-				<p>Windows: 인스톨러의 가이드에 따라 설치하세요.</p>
-				<p>Mac: 원하는 디렉토리에 설치하세요.</p><br><br>
+				<p>Windows: 인스톨러의 가이드에 따라 설치하세요.(환경변수 자동 등록)</p>
+				<p>Mac: Users/Username 디렉토리에 설치하세요.(Home 디렉토리)</p><br><br>
 				<li>Geth 실행하기</li>
 				<p>콘솔에 아래와 같이 입력하여 Geth를 실행하세요.</p>
 				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
@@ -82,11 +82,12 @@
 				</table><br><br>
 				<li>CLI를 이용해 Bootnode에 직접 접속하기</li>
 				<p>콘솔에 아래와 같이 입력하여 Bootnode에 직접 접속하세요. </p><br>
+				<img src="img/bootnode.png"><br><br>
 				<p><b>Bootnode 1</b><font color="=#000000" style="font-size: 12pt"> 좌석번호 1번 ~ 8번까지 1번 Bootnode에 접속해주세요.</font></p>
 				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
 					<tr>
 						<td style="word-break: break-all">
-							<p><code>admin.addPeer("enode://ae34a288e3a61b7c161bf2c407b2b44dc9161f9277fbd2f0e0ce1a729be999f50dbf2054a5dfb925b5e81317e8b4803a5886cd3c346cc32a78693764d6511437@13.124.226.8:8080")</code></p>
+							<p><code>admin.addPeer("enode://050e541ba9321debf17e0e020caef78e0dfb20852f85b88cf2019885f50ace72d1f4eb650f73173df8556949e7e7c60a703fa32993c6cbdbef683a079f00b8f3@13.124.226.8:8080")</code></p>
 						</td>
 					</tr>
 				</table><br>
@@ -94,7 +95,7 @@
 				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
 					<tr>
 						<td style="word-break: break-all">
-							<p><code>admin.addPeer("enode://ae34a288e3a61b7c161bf2c407b2b44dc9161f9277fbd2f0e0ce1a729be999f50dbf2054a5dfb925b5e81317e8b4803a5886cd3c346cc32a78693764d6511437@13.124.226.8:8080")</code></p>
+							<p><code>admin.addPeer("enode://9d2b72b673b8daf33d3132aaa12e18b42cfa21d4f4fee9f9c3eb7775ce9b0726e9c60b1af57b0d90ae03914ca3803d43dbef2ec7683a2f38f63363bdb686a84b@13.125.35.226:8080")</code></p>
 						</td>
 					</tr>
 				</table><br>
@@ -102,7 +103,7 @@
 				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
 					<tr>
 						<td style="word-break: break-all">
-							<p><code>admin.addPeer("enode://ae34a288e3a61b7c161bf2c407b2b44dc9161f9277fbd2f0e0ce1a729be999f50dbf2054a5dfb925b5e81317e8b4803a5886cd3c346cc32a78693764d6511437@13.124.226.8:8080")</code></p>
+							<p><code>admin.addPeer("enode://94f9e6aa37d48560fdf4b8f6144cd9c11e3f33009462356215226778112f37e253a55c10d7e3703a639a0f130331c12e740c36d202139243e9181c0adca7c2a1@52.78.81.206:8080")</code></p>
 						</td>
 					</tr>
 				</table><br>
@@ -110,7 +111,7 @@
 				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
 					<tr>
 						<td style="word-break: break-all">
-							<p><code>admin.addPeer("enode://ae34a288e3a61b7c161bf2c407b2b44dc9161f9277fbd2f0e0ce1a729be999f50dbf2054a5dfb925b5e81317e8b4803a5886cd3c346cc32a78693764d6511437@13.124.226.8:8080")</code></p>
+							<p><code>admin.addPeer("enode://3387f881cfc46624928642bad2de1ca79e9d624e59717ffab1be362576daedbb9820e438fac5ed6b21dbefed7c03f5a41b0c28970fb93b7951def04e2424dc11@13.124.217.65:8080")</code></p>
 						</td>
 					</tr>
 				</table><br>
@@ -118,7 +119,7 @@
 				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
 					<tr>
 						<td style="word-break: break-all">
-							<p><code>admin.addPeer("enode://ae34a288e3a61b7c161bf2c407b2b44dc9161f9277fbd2f0e0ce1a729be999f50dbf2054a5dfb925b5e81317e8b4803a5886cd3c346cc32a78693764d6511437@13.124.226.8:8080")</code></p>
+							<p><code>admin.addPeer("enode://af6af1fbd314a6bdc2920f623a555bff33099f4f6c9213858a63913c5cd0a5576e16a27bfd1220bddb7325071b0b2b4cdac8a7c5288b405035a1595d80c905ed@13.125.25.243:8080")</code></p>
 						</td>
 					</tr>
 				</table><br><br>
@@ -189,7 +190,7 @@
 				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
 					<tr>
 						<td style="word-break: break-all">
-							<p><code>personal.sendTransaction({from:personal.listAccounts[0],to:"0x968a86f451ebc6a1ed58793e1be74183f17aba32",value:web3.toWei(100,"ether")},"1")</code></p>
+							<p><code>personal.sendTransaction({from:personal.listAccounts[0],to:"0x968a86f451ebc6a1ed58793e1be74183f17aba32",value:web3.toWei(1000,"ether")},"1")</code></p>
 						</td>
 					</tr>
 				</table><br><br>
@@ -226,7 +227,7 @@
 				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
 					<tr>
 						<td style="word-break: break-all">
-							<p><code>miner.setEtherbase(personal.listAccounts[0])</code></p>
+							<p><code>miner.setEtherbase(personal.listAccounts[1])</code></p>
 						</td>
 					</tr>
 				</table><br>
@@ -242,7 +243,7 @@
 				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
 					<tr>
 						<td style="word-break: break-all">
-							<p><code>eth.getBalance(personal.listAccounts[0])</code></p>
+							<p><code>eth.getBalance(personal.listAccounts[1])</code></p>
 						</td>
 					</tr>
 				</table><br>
@@ -263,7 +264,16 @@
 						</td>
 					</tr>
 				</table><br><br>
-				<h3 class="step_final">완료조건: 강사의 Account Balace = 4000ETH 확인 확인</h3>
+				<p><b>실습용 Account Balance 차감 확인</b></p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
+					<tr>
+						<td style="word-break: break-all">
+							<p><code>eth.getBalance(personal.listAccounts[0])</code></p>
+						</td>
+					</tr>
+				</table><br><br>
+				<h3 class="step_final">완료조건: 강사의 Account Balace = 40000ETH 확인<br>강사의 안내에 따라 직접 Mining을 시도해보세요.</h3>
+				<p>Geth의 추가적인 기능은 이더리움 Wiki를 확인하세요.<a href="https://github.com/ethereum/go-ethereum/wiki/Management-APIs#list-of-management-apis" target="_blank">링크</a>
 			</ol>
 		</div>
 	</div>
