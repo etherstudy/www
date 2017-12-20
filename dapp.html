@@ -26,7 +26,7 @@
 				</td>
 				</tr>
 				</table>
-				<p>프롬프트가 깜빡이는지 확인하세요.<p>
+				<p>프롬프트가 깜빡이는지 확인하세요.</p>
 				<img src="img/geth_run.png" width="800px" border="1px">
 				<br><br>
 				
@@ -36,12 +36,11 @@
 					<tr>
 						<td>
 							<p><code>
-								/$ node -v  <a href="https://nodejs.org/ko/download/
-									">설치링크</a><br>
+								/$ node -v  <a href="https://nodejs.org/ko/download/" target="_blank">설치링크</a><br>
 								/$ npm -v<br>
 								/$ npm install express-generator -g</font><br>
 								</p>
-							        /$ git clone https://github.com/etherstudy/crowdfund.git <a href="https://github.com/etherstudy/crowdfund.git">Git링크</a><br>
+							        /$ git clone https://github.com/etherstudy/crowdfund.git <a href="https://github.com/etherstudy/www/blob/master/crowdfund.zip" target="_blank">Git링크</a><br>
 								<font color=gray>
 								/$ express crowdfund<br>
 								/$ cd crowdfund;<br>
@@ -57,12 +56,66 @@
 				</table>
 				<br><br>
 				<h3 class="step_final"> 완료 조건</h3>
-	<p>브라우저로 <a href="http://127.0.0.1:3000">http://127.0.0.1:3000</a>에 접속하여 Express를 사용할 수 있는 지 확인하세요.</p>
+	<p>브라우저로 <a href="http://127.0.0.1:3000" target="_blank">http://127.0.0.1:3000</a>에 접속하여 Express를 사용할 수 있는 지 확인하세요.</p>
 				<br><br>
 			</ol>
 		</div>
 	</div>
-	
+
+<!--Step 1-1-->
+	<div class="steps">
+		<h3 class="sub_title">Step 1-1. Private network 접속</h3>
+		<div class="content">
+			<ol>
+				<p>CLI를 이용해 Bootnode에 직접 접속하기</p>
+				<p>콘솔에 아래와 같이 입력하여 Bootnode에 직접 접속하세요. </p><br>
+				<img src="img/bootnode.png"><br><br>
+				<p><b>Bootnode 1</b><font color="=#000000" style="font-size: 12pt"> 좌석번호 1번 ~ 8번까지 1번 Bootnode에 접속해주세요.</font></p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
+					<tr>
+						<td style="word-break: break-all">
+							<p><code>admin.addPeer("enode://050e541ba9321debf17e0e020caef78e0dfb20852f85b88cf2019885f50ace72d1f4eb650f73173df8556949e7e7c60a703fa32993c6cbdbef683a079f00b8f3@13.124.226.8:8080")</code></p>
+						</td>
+					</tr>
+				</table><br>
+				<p><b>Bootnode 2</b><font color="=#000000" style="font-size: 12pt"> 좌석번호 9번 ~ 16번까지 2번 Bootnode에 접속해주세요.</font></p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
+					<tr>
+						<td style="word-break: break-all">
+							<p><code>admin.addPeer("enode://9d2b72b673b8daf33d3132aaa12e18b42cfa21d4f4fee9f9c3eb7775ce9b0726e9c60b1af57b0d90ae03914ca3803d43dbef2ec7683a2f38f63363bdb686a84b@13.125.35.226:8080")</code></p>
+						</td>
+					</tr>
+				</table><br>
+				<p><b>Bootnode 3</b><font color="=#000000" style="font-size: 12pt"> 좌석번호 17번 ~ 24번까지 3번 Bootnode에 접속해주세요.</font></p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
+					<tr>
+						<td style="word-break: break-all">
+							<p><code>admin.addPeer("enode://94f9e6aa37d48560fdf4b8f6144cd9c11e3f33009462356215226778112f37e253a55c10d7e3703a639a0f130331c12e740c36d202139243e9181c0adca7c2a1@52.78.81.206:8080")</code></p>
+						</td>
+					</tr>
+				</table><br>
+				<p><b>Bootnode 4</b><font color="=#000000" style="font-size: 12pt"> 좌석번호 25번 ~ 32번까지 4번 Bootnode에 접속해주세요.</font></p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
+					<tr>
+						<td style="word-break: break-all">
+							<p><code>admin.addPeer("enode://3387f881cfc46624928642bad2de1ca79e9d624e59717ffab1be362576daedbb9820e438fac5ed6b21dbefed7c03f5a41b0c28970fb93b7951def04e2424dc11@13.124.217.65:8080")</code></p>
+						</td>
+					</tr>
+				</table><br>
+				<p><b>Bootnode 5</b><font color="=#000000" style="font-size: 12pt"> 좌석번호 33번 ~ 40번까지 5번 Bootnode에 접속해주세요.</font></p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
+					<tr>
+						<td style="word-break: break-all">
+							<p><code>admin.addPeer("enode://af6af1fbd314a6bdc2920f623a555bff33099f4f6c9213858a63913c5cd0a5576e16a27bfd1220bddb7325071b0b2b4cdac8a7c5288b405035a1595d80c905ed@13.125.25.243:8080")</code></p>
+						</td>
+					</tr>
+				</table><br><br>
+				<p>CLI명령 admin.peers 입력 시 연결된 Peer들의 정보가 출력되는 지 확인하세요.</p>
+				<img src="img/admin_peers.png" width="800px" border="1px">
+				<br><br>
+			</ol>
+		</div>
+	</div>
 <!--Step 2-->
 	<div class="steps">
 		<h3 class="sub_title">Step 2. 크라우드 펀딩 시나리오</h3>
@@ -137,7 +190,7 @@
 					
 					
 				<li>Set(SendTransaction) <a href="https://web3js.readthedocs.io/en/1.0/web3-eth.html#sendtransaction
-					"> 매뉴얼열기</a></li>
+					" target="_blank"> 매뉴얼열기</a></li>
 				<p></p>
 				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
 					<tr>
