@@ -16,12 +16,12 @@
 		<div class="content">
 			<ol>
 				
-				<li>Geth Private network 접속</li>
+				<li> Geth 구동 (프라이빗 네트워크 환경) </li>
 				<p>콘솔에 아래와 같이 입력하여 Private network에 접속하세요.</p>
 				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
 				<tr>
 				<td>
-					<p><code>$ geth --datadir "./ether_study" --networkid 15    --port 8080 --rpc --rpccorsdomain "*" --rpcapi "admin,db,eth,miner,net,txpool,personal,web3" console
+					<p><code>$ geth --datadir "./private-data" --networkid 15    --port 8080 --rpc --rpccorsdomain "*" --rpcapi "admin,db,eth,miner,net,txpool,personal,web3" console
 					</code></p>
 				</td>
 				</tr>
@@ -29,88 +29,50 @@
 				<p>프롬프트가 깜빡이는지 확인하세요.</p>
 				<img src="img/geth_run.png" width="800px" border="1px">
 				<br><br>
-				<li>CLI를 이용해 Bootnode에 직접 접속하기</li>
-				<p>콘솔에 아래와 같이 입력하여 Bootnode에 직접 접속하세요. </p><br>
+				<li>프라이빗 네트워크 상호간에 빠르게 연결하기 </li>
+				<p> ./private-data 디렉토리에 static-nodes.json 파일 저장  &nbsp; <a href="http://www.etherstudy.net/static-nodes.json" download>파일 다운로드</a></p><br>
 				<img src="img/bootnode.png"><br><br>
-				<p><b>Bootnode 1</b><font color="=#000000" style="font-size: 12pt"> 좌석번호 1번 ~ 8번까지 1번 Bootnode에 접속해주세요.</font></p>
-				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
-					<tr>
-						<td style="word-break: break-all">
-							<p><code>admin.addPeer("enode://050e541ba9321debf17e0e020caef78e0dfb20852f85b88cf2019885f50ace72d1f4eb650f73173df8556949e7e7c60a703fa32993c6cbdbef683a079f00b8f3@13.124.226.8:8080")</code></p>
-						</td>
-					</tr>
-				</table><br>
-				<p><b>Bootnode 2</b><font color="=#000000" style="font-size: 12pt"> 좌석번호 9번 ~ 16번까지 2번 Bootnode에 접속해주세요.</font></p>
-				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
-					<tr>
-						<td style="word-break: break-all">
-							<p><code>admin.addPeer("enode://9d2b72b673b8daf33d3132aaa12e18b42cfa21d4f4fee9f9c3eb7775ce9b0726e9c60b1af57b0d90ae03914ca3803d43dbef2ec7683a2f38f63363bdb686a84b@13.125.35.226:8080")</code></p>
-						</td>
-					</tr>
-				</table><br>
-				<p><b>Bootnode 3</b><font color="=#000000" style="font-size: 12pt"> 좌석번호 17번 ~ 24번까지 3번 Bootnode에 접속해주세요.</font></p>
-				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
-					<tr>
-						<td style="word-break: break-all">
-							<p><code>admin.addPeer("enode://94f9e6aa37d48560fdf4b8f6144cd9c11e3f33009462356215226778112f37e253a55c10d7e3703a639a0f130331c12e740c36d202139243e9181c0adca7c2a1@52.78.81.206:8080")</code></p>
-						</td>
-					</tr>
-				</table><br>
-				<p><b>Bootnode 4</b><font color="=#000000" style="font-size: 12pt"> 좌석번호 25번 ~ 32번까지 4번 Bootnode에 접속해주세요.</font></p>
-				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
-					<tr>
-						<td style="word-break: break-all">
-							<p><code>admin.addPeer("enode://3387f881cfc46624928642bad2de1ca79e9d624e59717ffab1be362576daedbb9820e438fac5ed6b21dbefed7c03f5a41b0c28970fb93b7951def04e2424dc11@13.124.217.65:8080")</code></p>
-						</td>
-					</tr>
-				</table><br>
-				<p><b>Bootnode 5</b><font color="=#000000" style="font-size: 12pt"> 좌석번호 33번 ~ 40번까지 5번 Bootnode에 접속해주세요.</font></p>
-				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
-					<tr>
-						<td style="word-break: break-all">
-							<p><code>admin.addPeer("enode://af6af1fbd314a6bdc2920f623a555bff33099f4f6c9213858a63913c5cd0a5576e16a27bfd1220bddb7325071b0b2b4cdac8a7c5288b405035a1595d80c905ed@13.125.25.243:8080")</code></p>
-						</td>
-					</tr>
-				</table>
-				<p>[TIP] --datadir 디렉토리에 static-nodes.json 파일에 부트노드 저장시 항상 접속됨 &nbsp; <a href="http://www.etherstudy.net/static-nodes.json" download>파일링크</a></p><br><br>
+
 				<h3 class="step_final"> 완료 조건</h3>
 				<p>CLI명령 admin.peers 입력 시 연결된 Peer들의 정보가 출력되는 지 확인하세요.</p>
 				<img src="img/admin_peers.png" width="800px" border="1px"><br><br><br>
+
 				<li>Dapp 환경설정</li>	
 				<p>콘솔에 아래와 같이 입력하여 환경을 설정하세요.</p>
 				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
 					<tr>
 						<td>
 							<p><code>
-								/$ node -v  <a href="https://nodejs.org/ko/download/" target="_blank">설치링크</a><br>
+								/$ node -v   <font color="#ffdab9">// <a href="https://nodejs.org/ko/download/" target="_blank"> <font color="#ffdab9">설치링크</font></a></font><br>
 								/$ npm -v<br>
 								/$ npm install express-generator -g</font><br>
 								</p>
-							        /$ git clone https://github.com/etherstudy/crowdfund.git <a href="https://github.com/etherstudy/crowdfund.git" target="_blank">Git소스링크</a><br>
-								<font color=gray>
+							/$ git clone https://github.com/etherstudy/crowdfund.git <br>
+								<font color=#fffacd>
+								//--- git 설치가 안된 경우, 다음과 같이 진행한다.<br>
 								/$ express crowdfund<br>
-								/$ cd crowdfund;<br>
-								/crowdfund $ npm install web3@0.19 --save<br>
+								/$ cd crowdfund <br>
+								<!--/crowdfund$ npm install web3@0.19 --save<br-->
+									/crowdfund $ <font color="#ffdab9">// <a href="https://github.com/etherstudy/crowdfund.git" target="_blank"> <font color="#ffdab9">Git링크</font></a>에서 Download Zip을 받아서 해당 폴더에 덮어쓴다.</font><br>
+
 								</font>
 								</p>
-							        /$ cd crowdfund;<br>
-								/crowdfund$ npm install<br>
-								/crowdfund$ npm start //구동시작<br>
+						    	/crowdfund $ npm install<br>
+								/crowdfund $ npm start<br>
 							</code></p>
 						</td>
 					</tr>
-				</table>
-	                        <p>[TIP] nodemon으로 웹서버 재시작없이 이용하기</p>
-				<p> &nbsp;/crowdfund $ npm install nodemon </p>
-	                        <p> &nbsp;/crowdfund $ nodemon -x npm start </p>
-	                        <br><br>
+				</table><br>
+				[TIP] nodemon으로 웹서버 재시작없이 이용하기 <br>
+				 &nbsp;/crowdfund $ npm install nodemon <br>
+				 &nbsp;/crowdfund $ nodemon -x npm start
+				<br><br>
 			
 				<h3 class="step_final"> 완료 조건</h3>
 	<p>브라우저로 <a href="http://127.0.0.1:3000" target="_blank">http://127.0.0.1:3000</a>에 접속하여 Express를 사용할 수 있는 지 확인하세요.</p>
-				<br><br>
 			</ol>
 		</div>
-	</div>
+	</div><br><br>
 
 <!--Step 2-->
 	<div class="steps">
@@ -120,11 +82,11 @@
 				<img src="img/Session4_step2.png" width="800px" border="1px">
 			</ol>
 		</div>
-	</div>
+	</div><br><br>
 
 <!--Step 3-->
 	<div class="steps">
-		<h3 class="sub_title">Step 3. Web3 / Contract연동</h3>
+		<h3 class="sub_title">Step 3. Web3 / Contract 객체 생성</h3>
 		<div class="content">
 			<ol>
 				<li>Web3 연동 </li>
@@ -150,10 +112,10 @@
 								var CrowdFundContract = web3.eth.contract(crowdFundAbi).at(<font color="gray">< CrowdFundAddress 입력 ></font>)</code></p>
 						</td>
 					</tr>
-				</table><br><br>
+				</table>
 			</ol>
 		</div>
-	</div>
+	</div><br><br>
 
 <!--Step 4-->
 	<div class="steps">

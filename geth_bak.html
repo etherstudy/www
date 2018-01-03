@@ -56,7 +56,7 @@
 				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
 					<tr>
 						<td>
-							<p><code>geth --datadir="./private-data" init genesis.json</code></p>
+							<p><code>geth --datadir="./ether_study" init genesis.json</code></p>
 						</td>
 					</tr>
 				</table><br><br>
@@ -76,15 +76,13 @@
 				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
 					<tr>
 						<td>
-							<p><code>geth --datadir="./private-data" --networkid 15 --port 8080 console</code></p>
+							<p><code>geth --datadir="./ether_study" --networkid 15 --port 8080 console</code></p>
 						</td>
 					</tr>
 				</table><br><br>
-				<li>프라이빗 네트워크 상호간에 빠르게 연결하기 </li>
-				<p> ./private-data 디렉토리에 static-nodes.json 파일 저장  &nbsp; <a href="http://www.etherstudy.net/static-nodes.json" download>파일 다운로드</a></p><br>
+				<li>CLI를 이용해 Bootnode에 직접 접속하기</li>
+				<p>콘솔에 아래와 같이 입력하여 Bootnode에 직접 접속하세요. </p><br>
 				<img src="img/bootnode.png"><br><br>
-
-				<!--
 				<p><b>Bootnode 1</b><font color="=#000000" style="font-size: 12pt"> 좌석번호 1번 ~ 8번까지 1번 Bootnode에 접속해주세요.</font></p>
 				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
 					<tr>
@@ -125,7 +123,6 @@
 						</td>
 					</tr>
 				</table><br><br>
-				-->
 				<h3 class="step_final">완료조건: CLI명령 admin.peers 입력 시 연결된 Peer들의 정보가 출력</h3>
 				<img src="img/admin_peers.png" width="800px" border="1px">
 			</ol>
@@ -165,9 +162,9 @@
 					</tr>
 				</table><br><br>
 				<li>생성한 Account 삭제하기</li>
-				<p>실습을 위해 ./private-data/keystore 에 있는 UTC--... 파일을 삭제하세요.</p><br>
+				<p>실습을 위해 ./ether_study/keystore 에 있는 UTC--... 파일을 삭제하세요.</p><br>
 				<li>실습용 Account 다운로드하기</li>
-				<p>이 <a href="Account_download.html" target="_blank">링크</a>에서 본인의 좌석번호와 같은 실습용 Account를 다운로드한 후 ./private-data/keystore에 압축을 해제하세요.</p><br><br>
+				<p>이 <a href="Account_download.html" target="_blank">링크</a>에서 본인의 좌석번호와 같은 실습용 Account를 다운로드한 후 ./ether_study/keystore에 압축을 해제하세요.</p><br><br>
 				<li>실습용 Account의 Balance 확인하기</li>
 				<p>콘솔에 아래와 같이 입력하여 실습용 Account의 Balance를 확인할 수 있습니다.</p>
 				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
