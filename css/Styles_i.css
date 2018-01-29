@@ -31,3 +31,9 @@ code{
 .step_final{
 	font-size: 25px;
 }
+
+.sub_content {
+	font-size: 15px;
+	color: #00008b;
+	margin-top: 3px;
+}
