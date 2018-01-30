@@ -92,11 +92,12 @@
 
 				
 				<li>Console mode로 Geth 실행하기</li>
-				<p>콘솔에 아래와 같이 입력하여 Geth를 실행하세요.</p>
+				<p>콘솔에 아래와 같이 입력하여 Geth를 실행하세요.(rcp 옵션 포함됨)</p>
 				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt">
 					<tr>
 						<td>
-							<p><code>~/etherstudy> geth --datadir private-data --networkid 15 --port 8080 console</code></p>
+							<p><code>~/etherstudy> geth --datadir private-data --networkid 15 --port 8080 --rpc --rpccorsdomain "*" --rpcapi "admin,db,eth,miner,net,txpool,personal,web3" console
+							</code></p>
 						</td>
 					</tr>
 				</table><br><br>
