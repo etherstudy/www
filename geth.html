@@ -254,9 +254,10 @@
 						</td>
 					</tr>
 				</table><br><br>
+
 				<li>Mining으로 Tx을 Block에 담아 처리하기<b>(강사만 진행합니다.)</b></li>
-				<p><b>Block reward를 수취할 Account를 coinbase로 세팅</b></p>
-				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
+				<!--p><b>Block reward를 수취할 Account를 coinbase로 세팅</b></p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt">
 					<tr>
 						<td style="word-break: break-all">
 							<p><code>miner.setEtherbase(personal.listAccounts[1])</code></p>
@@ -264,7 +265,7 @@
 					</tr>
 				</table><br>
 				<p><b>Mining 시작</b></p>
-				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt">
 					<tr>
 						<td style="word-break: break-all">
 							<p><code>miner.start()</code></p>
@@ -272,7 +273,7 @@
 					</tr>
 				</table><br>
 				<p><b>Coinbase Account의 Balance 증가 확인</b></p>
-				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt">
 					<tr>
 						<td style="word-break: break-all">
 							<p><code>eth.getBalance(personal.listAccounts[1])</code></p>
@@ -280,14 +281,14 @@
 					</tr>
 				</table><br>
 				<p><b>Mining한 Block 확인</b></p>
-				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt">
 					<tr>
 						<td style="word-break: break-all">
 							<p><code>eth.getBlock(확인할 블럭 넘버)</code></p>
 						</td>
 					</tr>
 				</table><br>
-				<img src="img/mining_block.png" width="800px" border="1px"><br><br><br><br>
+				<img src="img/mining_block.png" width="800px" border="1px"><br><br--><br><br>
 				<p><b>강사의 Account Balance 증가 확인</b></p>
 				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
 					<tr>
@@ -304,7 +305,7 @@
 						</td>
 					</tr>
 				</table><br><br>
-				<h3 class="step_final">완료조건: 강사의 Account Balace = 4000ETH 확인<br>강사의 안내에 따라 직접 Mining을 시도해보세요.</h3>
+				<h3 class="step_final">완료조건: 강사의 Account Balace = 4000ETH 확인<br><!--강사의 안내에 따라 직접 Mining을 시도해보세요.--></h3>
 				<p>Geth의 추가적인 기능은 이더리움 Wiki를 확인하세요.<a href="https://github.com/ethereum/go-ethereum/wiki/Management-APIs#list-of-management-apis" target="_blank">링크</a>
 			</ol>
 		</div>
