@@ -22,6 +22,11 @@ code{
 	margin: 0 auto;
 }
 .sub_title{
+	 font-size: 25px;
+	 margin-top: 50px;
+ }
+.sub_title2{
+	color : darkblue;
 	font-size: 25px;
 	margin-top: 50px;
 }
@@ -33,6 +38,12 @@ code{
 }
 
 .sub_content {
-	font-size: 23px;
+	font-size: 21px;
 	margin-top: 3px;
+}
+
+.sub_content2 {
+	font-size: 15px;
+	margin-top: 3px;
+	margin-left: 10px;
 }
