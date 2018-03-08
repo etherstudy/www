@@ -1,0 +1,1 @@
+set PATH=C:\Users\%USERNAME%\AppData\Roaming\Mist\binaries\Geth\unpacked;%PATH%
