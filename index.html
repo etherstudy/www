@@ -1,61 +1,322 @@
-
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html class="no-js" lang="en">
 <head>
-	<title>이틀에 끝내는 코어 이더리움 프로그래밍 </title>
-	<meta charset='utf-8'>
-	<link href="https://fonts.googleapis.com/earlyaccess/nanumgothic.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/earlyaccess/nanumgothiccoding.css" rel="stylesheet">
-	<link href="css/Styles_i.css" rel="stylesheet">
+  <!-- title -->
+  <title>이더리움연구회</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1"/>
+  <meta name="author" content="ThemeZaa">
+  <!-- description -->
+  <meta name="description" content="이더리움 연구회">
+  <meta name="keywords" content="이더리움연구회 이더리움 블로터">
+
+
+  <!-- animation -->
+  <link rel="stylesheet" href="css/v1/css/animate.css"/>
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="css/v1/css/bootstrap.min.css"/>
+  <!-- et line icon -->
+  <link rel="stylesheet" href="css/v1/css/et-line-icons.css"/>
+  <!-- font-awesome icon -->
+  <link rel="stylesheet" href="css/v1/css/font-awesome.min.css"/>
+  <!-- themify icon -->
+  <link rel="stylesheet" href="css/v1/css/themify-icons.css">
+  <!-- swiper carousel -->
+  <link rel="stylesheet" href="css/v1/css/swiper.min.css">
+  <!-- justified gallery  -->
+  <link rel="stylesheet" href="css/v1/css/justified-gallery.min.css">
+  <!-- magnific popup -->
+  <link rel="stylesheet" href="css/v1/css/magnific-popup.css">
+    <!-- bootsnav -->
+  <link rel="stylesheet" href="css/v1/css/bootsnav.css">
+  <!-- style -->
+  <link rel="stylesheet" href="css/v1/css/style.css"/>
+  <!-- responsive css -->
+  <link rel="stylesheet" href="css/v1/css/responsive.css"/>
+  <!--[if IE]>
+  <script src="css/v1/js/html5shiv.js"></script>
+  <![endif]-->
 </head>
+
 <body>
-<h1 id="main_title" align="center">이틀에 끝내는 코어 이더리움 프로그래밍</h1>
-<div class="steps">
+<!-- start header -->
+<header>
+  <!-- start navigation -->
+  <nav class="navbar navbar-default bootsnav navbar-fixed-top header-light bg-transparent nav-box-width white-link">
+    <div class="container nav-header-container">
+      <div class="row">
+        <!-- start logo -->
+        <div class="col-md-2 col-xs-5"><br>
+          <a href="/"><font color="white" size="8"><b>이더리움 연구회</b></font></a>
+        </div>
+        <!-- end logo -->
 
-	<!--
-	<h3 class="sub_title">세션1. 블록체인 플랫폼 아키텍쳐 이해 (2h)  <a href="https://drive.google.com/file/d/1JWOrsL2OFbTyfeddSt6EhBBpQIj0ZYhB/view?usp=sharing" target="new">PDF</a></h3>
-	<h3 class="sub_title">세션2. 이더리움 플랫폼 심화 이해 (1h)  </h3>
-	<h3 class="sub_title">세션3. 솔리디티를 이용한 스마트컨트랙 실습 (3h)  <a href="./documents/smartcontract.pdf" target="new">PDF</a></h3>
-	<h3 class="sub_title">세션4. Geth 운영 실습 (1h)  <a href="./documents/geth.pdf" target="new">PDF</a>  <a href="./geth.html"> 강의보기</a></h3>
-	<h3 class="sub_title">세션5. Dapp 실습 (1h)  <a href="./documents/dapp.pdf" target="new">PDF</a>  <a href="./dapp.html"> 강의보기</a></h3>
-     -->
+        <div class="col-md-7 col-xs-2 width-auto pull-right accordion-menu">
+          <!--a href="/"><font color="white" size="5"><b>#Docs</b></font></a>&nbsp;&nbsp;&nbsp;
+          <a href="/"><font color="white" size="5"><b>#Bloter</b></font></a-->
 
-    <h3 class="sub_title2">1일차 : 하루만에 끝내는 이더리움 이론
-    <h3 class="sub_content">세션1. 코어 이더리움 <a href="https://drive.google.com/open?id=1VTicv-EokjPEItV8IpiNc8SJPvO_dIHx" target="new">PDF</a>
-    <h3 class="sub_content2">- 블록체인 컴퓨팅 : 암호화폐 및 블록체인 컴퓨팅의 역사 및 발전 과정 이해 (2시간)
-    <h3 class="sub_content2">- 이더리움 플랫폼과 상세 아키텍쳐 분석 (2시간)
-    <h3 class="sub_content2">- 이더리움의 현재와 미래 : 현재 이더리움의 문제점과 극복 노력, 3세대 블록체인 (1시간)
-    <br><br>
-    <h3 class="sub_content">세션2. 예제로 배우는 스마트컨트랙트 개발 <a href="https://drive.google.com/open?id=1A2vIwkU54rWjwamX7RSU7WK5thryI9YV" target="new">실습준비</a> <a href="https://drive.google.com/open?id=1IqkLz_grxn6kkm9wIIlDie0EdAuduEHa" target="new">PDF</a>
-    <h3 class="sub_content2">- Solidity 언어, MIST를 통한 스마트컨트랙 개발 실습 (2시간)
-    <h3 class="sub_content2">- 스마트 컨트랙과 EVM 구조 이해 (1시간)
+          <!--
+"                  data-target="#navbar-collapse-toggle-1">-->
+            <span class="sr-only">toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- end navigation -->
+</header>
+<!-- end header -->
 
-    <h3 class="sub_title2">2일차 : ICO 하루만에 끝내기
-    <h3 class="sub_content">세션3. ERC20 토큰 개발 (2시간) <a href="https://drive.google.com/open?id=1DwhwjzvCi8UVRF9AHoaIhk1Bh0tMT7rc" target="new">PDF</a>
-    <h3 class="sub_content">세션4. P2P 파일 시스템 - IPFS (1시간) <a href="https://drive.google.com/open?id=1Z5jBphnHZrvMtEh-0Z90jN9UUbXA0E4E" target="new">PDF</a>
-    <h3 class="sub_content">세션5. Geth 실습 - 프라이빗 네트워크 구축 (1시간) <a href="https://drive.google.com/open?id=1y8PZiHiIOaNleO4nzbZm9fURwOKYNd1I" target="new">PDF</a> <a href="./geth.html"> 강의보기</a>
-    <h3 class="sub_content">세션6. DApp 실습 - 클라우드펀딩 개발 (2시간) <a href="https://drive.google.com/open?id=17csSirEcKb79k8eeFIQNYJOluF4dxAYq" target="new">PDF</a>
-    <h3 class="sub_content">세션7. 블록체인 비지니스 - ICO 이해 (1시간) <a href="https://drive.google.com/open?id=1V2jDwg5TG32wH7n9-l9elPJJQOnYvtN3" target="new">PDF</a>
 
-    <br><br><br><br>
-    <table bgcolor="#fff5ee" width="100%">
-    <tr>
-    <td>
-    <h3 class="sub_content">&nbsp;* 강의시간에 배포되는 USB 파일을 개인 노트북으로 복사합니다. </h3>
-    <h3 class="sub_content2">&nbsp; 실습용 디렉토리 환경은 다음과 같습니다.(맥/윈도우 64bit)</h3>
-    <enter><img src="./img/etherstudy_home.png" width="100%"></enter>
-    <br><br>
-    <h3 class="sub_content">&nbsp;* (참고) 맥/윈도우 64bit가 아닌 경우 </h3>
-    <ol>
-    <li class="sub_content2"><b>Mist 설치</b> : <a href="https://github.com/ethereum/mist/releases" target="new"> 바로가기 </a>
-    <li class="sub_content2"><b>Geth 설치</b> : <a href="https://geth.ethereum.org/downloads/" target="new"> 바로가기</a></li>
-    <li class="sub_content2"><b>IPFS 설치</b> : <a href="https://dist.ipfs.io/#go-ipfs" target="new"> 바로가기</a></li>
-    <li class="sub_content2"><b>Node 설치</b> : <a href="https://nodejs.org/ko/download/" target="new"> 바로가기</a></li>
-    </ol>
-    </td>
-    </tr>
-    </table>
-</div>
 
+
+
+
+
+
+<!-- 여기 start participation section -->
+<section id="participation" class="wow fadeIn parallax" data-stellar-background-ratio="0.5"
+         style="background-image: url('css/v1/images/main-bg4.jpg')">
+  <div class="container">
+    <div class="row">
+      <!--div
+              class="col-lg-11 col-md-11 col-sm-8 col-xs-12 center-col margin-70px-bottom sm-margin-40px-bottom xs-margin-30px-bottom text-center last-paragraph-no-margin">
+        <h3 class="title-font title-m text-white margin-15px-bottom"> 이더리움 연구회 </h3>
+      </div-->
+    </div>
+    <div class="row">
+      <!-- start features box item -->
+      <div class="col-md-6 last-paragraph-no-margin sm-margin-30px-bottom">
+        <div class="padding-50px-all md-padding-40px-all xs-padding-30px-all bg-white box-shadow text-center">
+          <span
+                  class="part-title main-font margin-10px-bottom display-block sm-margin-5px-bottom">자료실</br>
+            &nbsp;</span>
+          <p class="text-sub margin-20px-lr sm-margin-15px-bottom xs-margin-20px-bottom">이연은 블록체인 아이디어를 시도해보고, <br>
+            블록체인 비지니스와 기술을 공유하는 공간입니다. </br>
+            블록체인에 관심있는 분들에게 도움이 되기를 희망합니다.</p>
+          <a href="event.html" target="_blank"
+             class="margin-40px-top btn btn-large btn-pink margin-25px-bottom md-margin-20px-bottom sm-display-table sm-margin-lr-auto">DOCS</a>
+        </div>
+      </div>
+      <!-- end features box item -->
+      <!-- start features box item -->
+      <div class="col-md-6 last-paragraph-no-margin sm-margin-30px-bottom">
+        <div class="padding-50px-all md-padding-40px-all xs-padding-30px-all bg-white box-shadow text-center">
+          <span
+                  class="part-title main-font margin-10px-bottom display-block sm-margin-5px-bottom">스터디 </br>
+            &nbsp;</span>
+          <p class="text-sub margin-20px-lr sm-margin-15px-bottom xs-margin-20px-bottom">
+            코어 이더리움 프로그래밍 이론부터 실습까지! 이틀만에 마스터해 봅시다.
+            이더리움 클라이언트 Geth 활용법, Solidity를 이용한 스마트컨트랙 개발 등을
+            직접 경험해보세요.
+          </p>
+          <a href="bloter.html" target="_blank"
+             class="margin-40px-top btn btn-large btn-pink margin-25px-bottom md-margin-20px-bottom sm-display-table sm-margin-lr-auto">Bloter</a>
+        </div>
+      </div>
+      <!-- end features box item -->
+    </div>
+  </div>
+</section>
+<!-- end participation section -->
+
+
+
+
+
+
+
+<!-- start 이더리움 연구회 section -->
+<section id="people" class="bg-white parallax wow fadeIn">
+  <div class="container">
+    <div class="row">
+      <div
+        class="col-lg-10 col-md-6 col-sm-8 col-xs-12 center-col margin-70px-bottom sm-margin-40px-bottom xs-margin-30px-bottom text-center last-paragraph-no-margin">
+        <h3 class="title-font title-m text-extra-dark-gray margin-15px-bottom">이더리움 연구회는?</h3>
+        <h6 class="font-weight-500 no-margin-bottom ls-minus-1">“국내 최초 블록체인 기술 관련 전문가 커뮤니티”</h6>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12 no-padding margin-50px-bottom xs-padding-20px-lr">
+        <div class="filter-content overflow-hidden">
+          <ul class="portfolio-grid work-3col gutter-large hover-option6 lightbox-portfolio">
+            <li class="grid-sizer"></li>
+            <!-- start portfolio item -->
+            <li class="grid-item wow zoomIn last-paragraph-no-margin">
+              <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
+                <img src="css/v1/images/ed_img1.jpg" alt=""/>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+            <!-- start portfolio item -->
+            <li class="grid-item wow zoomIn last-paragraph-no-margin" data-wow-delay="0.2s">
+              <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
+                <img src="css/v1/images/ed_img2.jpg" alt=""/>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+            <!-- start portfolio item -->
+            <li class="grid-item wow zoomIn last-paragraph-no-margin" data-wow-delay="0.4s">
+              <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
+                <img src="css/v1/images/ed_img4.jpg" alt=""/>
+              </div>
+            </li>
+            <!-- end portfolio item -->
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12 col-sm-12 col-xs-12 center-col text-center">
+        <img src="css/v1/images/people_img.png" alt="" class="margin-50px-bottom"/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-11 col-sm-11 col-xs-12 center-col text-center">
+        <p class="text-sub text-dark-gray font-weight-500">‘이더리움 연구회’는 2017년 8월에 시작된 국내 최초의 블록체인 전문가 커뮤니티입니다. 소수의 실력있는
+          개발자들이 모여 블록체인 작동원리를 연구하면서 ‘이더리움 연구회’가 시작되었습니다. 블록체인 주요 기술뿐만 아니라 다양한 분야의 전문가들이 합류해 합의 알고리즘, 분산 스토리지, 스마트 컨트랙트 등
+          블록체인 기반 기술과 블록체인 응용서비스(dApp), 크립토 이코노미와 같은 경제적 구조에 대해서도 심도있는 연구를 진행하고 있습니다.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end section -->
+
+<!--start section>
+<section id="report" class="bg-white parallax wow fadeIn">
+  <div class="container">
+    <div class="row">
+      <div
+        class="col-lg-11 col-md-11 col-sm-8 col-xs-12 center-col margin-40px-bottom sm-margin-40px-bottom xs-margin-30px-bottom text-center last-paragraph-no-margin">
+        <h3 class="main-font font-weight-700 text-extra-dark-gray margin-15px-bottom">Merkline Weekly Report</h3>
+        <p class="text-sub text-dark-gray font-weight-500 margin-40px-bottom">머클라인은 이더리움 연구회의 전문가들이 작성한 블록체인 산업의  </br>
+          기술 / 경제 / 비즈니스 분야의 리서치 보고서를 발행하고 각종 뉴스를 제공합니다. </br> 이를 구독하고자 하는 분은 아래 링크를 통해 받아보실 수 있습니다.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12 col-sm-12 col-xs-12 center-col text-center btn-dual">
+
+        <a class="btn btn-large1 btn-pink md-margin-15px-bottom sm-display-table sm-margin-lr-auto"
+           href="http://pf.kakao.com/_SFInC" target="_blank">Kakao Talk</a>
+
+      </div>
+    </div>
+  </div>
+</section>
+end section-->
+
+
+
+<!-- start footer -->
+<footer class="footer-strip-dark bg-copy padding-50px-tb xs-padding-30px-tb">
+  <div class="container">
+    <div class="row equalize xs-equalize-auto">
+      <!-- start logo -->
+      <div class="col-md-3 col-sm-3 col-xs-12 display-table sm-text-center xs-margin-20px-bottom">
+        <div class="display-table-cell vertical-align-middle">
+          <a href="/"><font color="white" size="5">이더리움 연구회</font></a>
+        </div>
+      </div>
+      <!-- end logo -->
+      <!-- start copyright -->
+      <div class="col-md-6 col-sm-6 col-xs-12 text-center text-small alt-font display-table xs-margin-10px-bottom">
+        <div class="text-white display-table-cell vertical-align-middle">
+          Copyright &copy; 2017 이더리움 연구회 All rights reserved.<!--p>merkline@chainstream.io</p-->
+        </div>
+      </div>
+      <!-- end copyright -->
+      <!-- start social media -->
+      <div class="col-md-3 col-sm-3 col-xs-12 display-table text-right sm-text-center">
+        <div class="display-table-cell vertical-align-middle">
+          <div class="row">
+            <div class="social-icon-style-8 display-inline-block vertical-align-middle">
+              <!-- start buttons -->
+              <a href="https://merkline.io"
+                 class="btn btn-rounded btn-medium btn-white md-margin-15px-bottom sm-display-table sm-margin-lr-auto"
+                 target="_blank">Merkline</a>
+              <!-- end buttons -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end social media -->
+    </div>
+  </div>
+</footer>
+<!-- end footer -->
+
+
+<!-- start scroll to top -->
+<a class="scroll-top-arrow" href="javascript:void(0);"><i class="ti-arrow-up"></i></a>
+<!-- end scroll to top  -->
+
+<!-- javascript libraries -->
+<script type="text/javascript" src="css/v1/js/jquery.js"></script>
+<script type="text/javascript" src="css/v1/js/modernizr.js"></script>
+<script type="text/javascript" src="css/v1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="css/v1/js/jquery.easing.1.3.js"></script>
+
+<script type="text/javascript" src="css/v1/js/smooth-scroll.js"></script>
+<script type="text/javascript" src="css/v1/js/jquery.appear.js"></script>
+<!-- menu navigation -->
+<script type="text/javascript" src="css/v1/js/bootsnav.js"></script>
+<script type="text/javascript" src="css/v1/js/jquery.nav.js"></script>
+<!-- animation -->
+<script type="text/javascript" src="css/v1/js/wow.min.js"></script>
+<!-- page scroll -->
+<script type="text/javascript" src="css/v1/js/page-scroll.js"></script>
+<!-- swiper carousel -->
+<script type="text/javascript" src="css/v1/js/swiper.min.js"></script>
+<!-- counter -->
+<script type="text/javascript" src="css/v1/js/jquery.count-to.js"></script>
+<!-- parallax -->
+<script type="text/javascript" src="css/v1/js/jquery.stellar.js"></script>
+<!-- magnific popup -->
+<script type="text/javascript" src="css/v1/js/jquery.magnific-popup.min.js"></script>
+<!-- portfolio with shorting tab -->
+<script type="text/javascript" src="css/v1/js/isotope.pkgd.min.js"></script>
+<!-- images loaded -->
+<script type="text/javascript" src="css/v1/js/imagesloaded.pkgd.min.js"></script>
+<!-- pull menu -->
+<script type="text/javascript" src="css/v1/js/classie.js"></script>
+<script type="text/javascript" src="css/v1/js/hamburger-menu.js"></script>
+<!-- counter  -->
+<script type="text/javascript" src="css/v1/js/counter.js"></script>
+<!-- fit video  -->
+<script type="text/javascript" src="css/v1/js/jquery.fitvids.js"></script>
+<!-- equalize -->
+<script type="text/javascript" src="css/v1/js/equalize.min.js"></script>
+<!-- skill bars  -->
+<script type="text/javascript" src="css/v1/js/skill.bars.jquery.js"></script>
+<!-- justified gallery  -->
+<script type="text/javascript" src="css/v1/js/justified-gallery.min.js"></script>
+<!--pie chart-->
+<script type="text/javascript" src="css/v1/js/jquery.easypiechart.min.js"></script>
+<!-- instagram -->
+<script type="text/javascript" src="css/v1/js/instafeed.min.js"></script>
+<!-- retina -->
+<script type="text/javascript" src="css/v1/js/retina.min.js"></script>
+<!-- revolution -->
+<!--<script type="text/javascript" src="css/v1/revolution/js/jquery.themepunch.tools.min.js"></script>-->
+<!--<script type="text/javascript" src="css/v1/revolution/js/jquery.themepunch.revolution.min.js"></script>-->
+<!-- revolution slider extensions (load below extensions JS files only on local file systems to make the slider work! The following part can be removed on server for on demand loading) -->
+<!--<script type="text/javascript" src="css/v1/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+<script type="text/javascript" src="css/v1/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+<script type="text/javascript" src="css/v1/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script type="text/javascript" src="css/v1/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script type="text/javascript" src="css/v1/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+<script type="text/javascript" src="css/v1/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+<script type="text/javascript" src="css/v1/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+<script type="text/javascript" src="css/v1/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script type="text/javascript" src="css/v1/revolution/js/extensions/revolution.extension.video.min.js"></script>-->
+<!-- setting -->
+<script type="text/javascript" src="css/v1/js/main.js"></script>
 </body>
 </html>
