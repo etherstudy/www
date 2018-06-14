@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Session 2. Geth 실습 가이드</title>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/earlyaccess/nanumgothic.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/earlyaccess/nanumgothiccoding.css" rel="stylesheet">
+	<link href="css/Styles.css" rel="stylesheet">
+</head>
+<body>
+	<h1 id="main_title" align="center">Session 2. Geth 실습 가이드</h1>
+
+<!--Step 1-->
+	<div class="steps">
+		<h3 class="sub_title">Step 1. Geth 설치 및 실행</h3>
+		<div class="content">
+			<ol>
+				<!--li>Geth 다운로드</li>
+				<p>운영체제에 맞는 Geth 클라이언트를 다운로드하세요.<a href="https://geth.ethereum.org/downloads/" target="_blank">링크</a></p><br><br>
+				<li>Geth 설치하기</li>
+				<p>Windows: 인스톨러의 가이드에 따라 설치하세요.(환경변수 자동 등록)</p>
+				<p>Mac: Users/Username 디렉토리에 설치하세요.(Home 디렉토리)</p><br><br-->
+				<li>Geth 설정하기 </li>
+				<p>Mist에 내장된 Geth를 사용하기위해 Geth의 PATH를 변경합니다. </p>
+				<p>(만일 Mist 내장된 Geth를 사용하지 않고, 별도로 Geth 설치하려면 다음 Geth 클라이언트를 다운로드하세요. <a href="https://geth.ethereum.org/downloads/" target="_blank">링크</a>)</p>
+				<!--table border="0px" width="800px" bgcolor="black" cellpadding="10pt">
+					<tr>
+						<td>
+							<p><code>~/> cd etherstudy/day2 </code></p>
+						</td>
+					</tr>
+				</table>
+
+				<p>Mac일 경우,</p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt">
+					<tr>
+						<td>
+							<p><code>~/etherstudy/day2> source gethenv.sh</code></p>
+						</td>
+					</tr>
+				</table>
+				<p>Window일 경우,</p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt">
+					<tr>
+						<td>
+							<p><code>~/etherstudy/day2> gethenv.bat</code></p>
+						</td>
+					</tr>
+				</table-->
+
+				<p>Window일 경우,</p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt">
+					<tr>
+						<td>
+							<p><code>> set PATH=%USERPROFILE%\AppData\Roaming\Mist\binaries\Geth\unpacked;%PATH%<br>
+							> echo %PATH%</code></p>
+						</td>
+					</tr>
+				</table>
+                <p>Mac일 경우,</p>
+                <table border="0px" width="800px" bgcolor="black" cellpadding="10pt">
+                    <tr>
+                        <td>
+                            <p><code>> export&nbsp;PATH=${HOME}/Library/Application\&nbsp;Support/Mist/binaries/Geth/unpacked:${PATH}<br>
+                            > echo $PATH</code></p>
+                        </td>
+                    </tr>
+                </table>
+				<br><br>
+
+				<li>Geth 실행하기</li>
+				<p>콘솔에 아래와 같이 입력하여 Geth를 실행하세요.</p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt">
+					<tr>
+						<td>
+							<p><code>> geth console</code></p>
+						</td>
+					</tr>
+				</table><br><br>
+				<h3 class="step_final">완료조건: 프롬프트가 깜빡이는지 확인하세요.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(확인이 완료되면 'exit' 로 Geth 콘솔을 종료하세요.)</h3>
+				<img src="img/geth_run.png" width="800px" border="1px">
+				<br><br>
+				<li>Console mode로 Geth 실행하기</li>
+				<p>콘솔에 아래와 같이 입력하여 Geth를 실행하세요.(rcp 옵션 포함됨)</p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt">
+					<tr>
+						<td>
+							<p><code>> geth --datadir private-data --networkid 15 --rpc --rpccorsdomain "*" --rpcapi "admin,db,eth,miner,net,txpool,personal,web3" console
+							</code></p>
+						</td>
+					</tr>
+				</table><br><br>
+			</ol>
+		</div>
+	</div>
+	<br>
+	
+
+	<div class="steps">
+		<h4 class="sub_title">
+	        ► <a href="https://remix.ethereum.org/" target="_new">Remix Link</a> <br>
+			► <a href="https://github.com/etherstudy/first_exercise" target="_new">Github Link</a>
+		</h4>
+	</div>
+</body>
+</html>
