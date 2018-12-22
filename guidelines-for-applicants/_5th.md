@@ -294,38 +294,32 @@ BaaS분과에서는 우선 현존하는 BaaS플랫폼들을 조사하고 특히 
 
 ## 토큰 이코노미 분과 모집 개요
 
-이더리움 연구회 4기 토큰 이코노미 분과는 Cryptoeconomic Analysis of Casper FFG라는 주제로 보고서 자료를 발표하였습니다. 짧은 시간이었지만 구성원들의 자발적인 헌신과 열정이 있었기에 가능했습니다. 금번 5기도 블록체인과 암호경제학에 열정을 가지신 분을 초대하고자 합니다.
+이더리움 연구회 4기 토큰 이코노미 분과는 <a href="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a4f5c576-6632-4a4b-87ce-9fdac853b424/Cryptoeconomic_Analysis_of_Casper_FFGbyEtherstudy.pdf?AWSAccessKeyId=ASIAT73L2G45GAMYOYDC&Expires=1545591103&Signature=fRP7mkDP5XW3bkVwYP8XMwTqls4%3D&x-amz-security-token=FQoGZXIvYXdzEIr//////////wEaDN%2Bn8pP1HYXxi2rG5SK3A%2BPovf02texYw4ycK8gQw6kl7syAEc50AFZmgbYPVTYO82EmQW2RxLmSkUOO3ZI6KOrTItyoCNnmFBQOUojSi%2B8qFLxRtVtDHXUmGJJRWJl1brHd9npxC2LV9l6X2eVe/WOsHZ2CpZQIpn1LrOV7nqBKidq4k0VM0Os7WbxMJK0UwhX20Ot7BwbQQZgLyHJZJKQTK51U%2BaLrebkcIvN7x6ZmnSVykhgIw/tHCY1VqyCiKIYhqi3L5G60oa/kpNEzWzAoSVIviHplr1PAvkYGZ7i7b1mTD6utnkHDgzCRlzIu8N4XG7h0FUpxjANF1tWAEEDfmsYSOuHtQcFGg6Nim9dG08psDkkHXIKHmbJSTjTkUnVARpDL0nbn7wIQTxahoI8BIzzWmdBywIt3nTEK7eFewOrL6m7S3IZmsxdN2CHLwwdg8wTK9yVHH8w7dPdWH59%2BjDG2aAR6tU8fB4Cw6VxAVm3f/rqkppBZWxBbhuMg4SrDy0Gd5hnBcMj7VKFxlqn%2BT4B25mjNCdcWxry4QIslKcG4QQ7ixlfo930RfBuBc8ys74n6UzLF9Alr7KAg3okx3CgMfUkou9r54AU%3D" target="_blank">Cryptoeconomic Analysis of Casper FFG</a>라는 주제로 보고서 자료를 발표하였습니다. 짧은 시간이었지만 구성원들의 자발적인 헌신과 열정이 있었기에 가능했습니다. 금번 5기도 블록체인과 암호경제학에 열정을 가지신 분을 초대하고자 합니다.
 
-### 지원자격
+### 지원일정
 
 토큰 이코노미 분과 모집 일정은 다음과 같습니다.
 
 **1차 서류 전형**
 
-* 서류 모집: 12월 21일 ~ 12월 28일 자정까지
-* 서류 결과 발표: 12월 29일
+* 1차 서류 모집 일정: **12월 23일 ~ 1월 1일 자정까지**
+* 1차 합격자 발표: **1월 2일** (1차 합격자 한하여 개별적으로 연락)
 
 **2차 게임이론 101 연습문제**
 
-* 1차 합격 발표자에 한해서 2차 게임이론 연습문제 진행
-* 기간: 12월 29일-30일
-* 발표: 1월 2일
+* 2차 게임이론 101일정: **1월 3일 ~ 1월 4일 자정까지**
+* 2차 합격자 발표: **1월 5일** (2차 합격자 한하여 개별적으로 연락)
 
 **3차 전화 인터뷰**
 
-* 2차 합격 발표자 한해서 전화 인터뷰 진행
+* 3차 전화 인퍼뷰 일정: **1월 6일**
+* 3차 합격자 발표: **1월 7일** (최종 합격자 한하여 개별적으로 연락)
 
-(스터디 참석 필수) 이더리움 연구회 토큰 이코노미 분과는 매주 1회(3시간씩) 스터디 모임을 가집니다. 따라서 주말 오후 또는 주중 (월&화) 19시 이후 시간대에 스터디 참석이 가능하신 분을 모집합니다.
+### 지원자격
 
-### 1차 제출 과제
-
-**질문 1.**
-
-이더리움 연구회 토큰 이코노미 분과에 지원하게 된 동기 및 자기소개를 해주세요. (300~400자 이내)
-
-**질문 2.**
-
-게임이론의 장점과 한계점은 무엇이며 블록체인 생태계 구축에 어떠한 방식으로 영향을 줄 수 있는지 본인의 언어로 서술해주세요. (400~500자 이내)
+* 매주 1회(3시간씩) 스터디 시간이 가능 하신 분 (주말 오후 또는 주중 월&화 19시 이후)
+* 게임이론에 관심이 많으신 분 (2차 게임이론 101 연습 문제를 통해 확인)
+* 분과 활동에 열정적으로 헌신해주실 분
 
 ### 연구일정
 
@@ -350,10 +344,10 @@ BaaS분과에서는 우선 현존하는 BaaS플랫폼들을 조사하고 특히 
 ### 주의 사항
 
 -       주 1회 토큰 이코노미 스터디 모임은 반드시 참여해야 합니다. (부득이하게 1~2회 정도 개인적인 사정으로 불참하는 경우 온라인으로 연구 결과를 공유해야 합니다.)
--       분과 모임 이외에도 정기 모임과 정기 워크샵이 진행됩니다.
--       연구 결과가 정해지면 주 1회 모임이외에도, 더 자주 만나서 작업하게 됩니다. 적극적인 자세로 헌신해 주실 수 있는 분이라면 연구회 활동에 적합합니다. (4기에서는 수시로 밤샘 작업을 하였습니다.)
 -       구성원들간의 시너지 효과를 극대화하기 위해서 오프라인으로 자주 소통합니다.
+-       분과 모임 이외에도 정기 모임과 정기 워크샵이 진행됩니다.
 -       필요에 따라 블록체인 관련 기초 교육을 토요 특강의 형태로 제공할 예정입니다.
+-       연구 결과가 정해지면 주 1회 모임이외에도, 더 자주 만나서 작업하게 됩니다. 적극적인 자세로 헌신해 주실 수 있는 분이라면 연구회 활동에 적합합니다. (4기에서는 수시로 밤샘 작업을 하였습니다.)
 -       힘든 여정이지만 의미 있는 연구 결과물을 함께 도출하고 싶으신 분을 초대합니다.
 
 ### 제출 바로가기
@@ -371,13 +365,13 @@ BaaS분과에서는 우선 현존하는 BaaS플랫폼들을 조사하고 특히 
 
 ### 리서치 내용
 
-4기에서 연구를 통해 합의하는 과정과 합의를 하는 주체에 관해 알아보았습니다. 추후 연구를 위해 Paxos와 Raft에 대한 연구를 추가적으로 진행할 예정입니다.
+4기에서는 <a href="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/fec6ec85-a1d1-42a0-b9f9-6ec85ae1c496/ConsensusinDistributedSystemBYEtherstudy.pdf?AWSAccessKeyId=ASIAT73L2G45O4ZWPAVO&Expires=1545602201&Signature=Z0wSDZ/silHOPqU/Ssg5%2BsTZ6JQ%3D&x-amz-security-token=FQoGZXIvYXdzEIr//////////wEaDOWaqyVb0uY3P/l6ZyK3Aze/1jrWgNoZmHAvCewpa10CoX6YLEAFMSheWuP2Jn%2Bvt8oJdPmnU5rNy5/M5PY/itETNYnmDfczY%2BFod9oSb2B00Uo4vZe6bY%2BX%2BmuRm9pPnskI8FM7DaQqYtkrioWPxVYRELI%2BdCaAPBBmv3ua4T9zdR8gtlXJNQpFszOAdkY3b0K58PybZ1KGEN3zOPWqiUFL6nTwOlahP7ojAZji9BnX6lGWkvNoihjsUrLRjhqzPLRMnMnfHp3tVHdB14aVnP8/lTY8vMTCnbS81tRZeBQ3ORHCljKOxdVIFIL8UagTC/4JBBov/bpYxUnRapYjLHf3o6XGcyEpuZA6nVtN763BLdMKeVVRHTFfJoZtQdsFiLP/u1g6CJ5z0wrea9kkGo/RYZgg/WZQ6MnU987hHnp6G3ULL0VqNY2XhQANt7oz%2Baj9t5Ovd0vXLme2VGspDnqy0CLXOQYI4gquJ6qJvd1defzEQHg/6zbnnm8hn8U%2Bhc9PSVPb18s5ybfDRYJJMOKHqC1jjQzobup0V%2B2BskBEr8eEhiHxwPpSPn9xzna8PaIvlX3N4y9U4Lf/rwO9p/vVnhmSP1Eom9f54AU%3D" target="_blank">Consensus in Distributed Systems</a>라는 주제로 합의하는 과정과 합의를 하는 주체에 관해 알아보았습니다. 추후 연구를 위해 Paxos와 Raft에 대한 연구를 추가적으로 진행할 예정입니다.
 
 새로운 파트로는 사용자가 지속적이고 유실되지 않는 서비스를 공급하기 위한 데이터가용성(Data Availability)에 대해 알아보고 솔루션을 찾기 위한 연구를 진행할 예정입니다.
 
 ### 지원 자격
 
-* 원문으로 된 논문 혹은 아티클을 읽고 이해가 가능하신 분 (참고: [pbft (Practical Byzantine Fault Tolerance)](http://pmg.csail.mit.edu/papers/osdi99.pdf))
+* 원문으로 된 논문 혹은 아티클을 읽고 이해가 가능하신 분 (참고: <a href="http://pmg.csail.mit.edu/papers/osdi99.pdf" target="_blank">pbft (Practical Byzantine Fault Tolerance)</a>)
 * 블록체인 플랫폼에 대한 이해
 * 이더리움 연구회 활동에 대한 열의 (매주 화요일 혹은 주말에 모임을 가질 예정이며, 참석을 꼭 하실 수 있으신 분)
 
