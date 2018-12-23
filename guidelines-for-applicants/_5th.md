@@ -8,7 +8,7 @@ title: 이더리움 연구회 5기 모집
 
 이더리움 연구회 소개: <a href="https://www.etherstudy.net/" target="_blank">홈페이지</a>, <a href="https://www.devstamp.io/" target="_blank">DevStamp 2018</a>, <a href="https://medium.com/etherstudyresearch" target="_blank">Medium 블로그</a>, <a href="https://www.facebook.com/groups/etherstudy/" target="_blank">페이스북 그룹</a>
 
-지원 기간: 2018년 12월 23일 ~ 2019년 1월 6일 자정까지
+지원 기간: 2018년 12월 23일 ~ 2019년 1월 6일 자정까지 (토큰 이코노미 분과는 분과 모집개요 참고)
 
 활동 기간: 2019년 1월 ~ 2019년 4월 30일
 
@@ -296,7 +296,7 @@ BaaS분과에서는 우선 현존하는 BaaS플랫폼들을 조사하고 특히 
 
 ## 토큰 이코노미 분과 모집 개요
 
-이더리움 연구회 4기 토큰 이코노미 분과는 <a href="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a4f5c576-6632-4a4b-87ce-9fdac853b424/Cryptoeconomic_Analysis_of_Casper_FFGbyEtherstudy.pdf?AWSAccessKeyId=ASIAT73L2G45GAMYOYDC&Expires=1545591103&Signature=fRP7mkDP5XW3bkVwYP8XMwTqls4%3D&x-amz-security-token=FQoGZXIvYXdzEIr//////////wEaDN%2Bn8pP1HYXxi2rG5SK3A%2BPovf02texYw4ycK8gQw6kl7syAEc50AFZmgbYPVTYO82EmQW2RxLmSkUOO3ZI6KOrTItyoCNnmFBQOUojSi%2B8qFLxRtVtDHXUmGJJRWJl1brHd9npxC2LV9l6X2eVe/WOsHZ2CpZQIpn1LrOV7nqBKidq4k0VM0Os7WbxMJK0UwhX20Ot7BwbQQZgLyHJZJKQTK51U%2BaLrebkcIvN7x6ZmnSVykhgIw/tHCY1VqyCiKIYhqi3L5G60oa/kpNEzWzAoSVIviHplr1PAvkYGZ7i7b1mTD6utnkHDgzCRlzIu8N4XG7h0FUpxjANF1tWAEEDfmsYSOuHtQcFGg6Nim9dG08psDkkHXIKHmbJSTjTkUnVARpDL0nbn7wIQTxahoI8BIzzWmdBywIt3nTEK7eFewOrL6m7S3IZmsxdN2CHLwwdg8wTK9yVHH8w7dPdWH59%2BjDG2aAR6tU8fB4Cw6VxAVm3f/rqkppBZWxBbhuMg4SrDy0Gd5hnBcMj7VKFxlqn%2BT4B25mjNCdcWxry4QIslKcG4QQ7ixlfo930RfBuBc8ys74n6UzLF9Alr7KAg3okx3CgMfUkou9r54AU%3D" target="_blank">Cryptoeconomic Analysis of Casper FFG</a>라는 주제로 보고서 자료를 발표하였습니다. 짧은 시간이었지만 구성원들의 자발적인 헌신과 열정이 있었기에 가능했습니다. 금번 5기도 블록체인과 암호경제학에 열정을 가지신 분을 초대하고자 합니다.
+이더리움 연구회 4기 토큰 이코노미 분과는 <a href="/documents/Cryptoeconomic_Analysis_of_Casper_FFG by Etherstudy.pdf" target="_blank">Cryptoeconomic Analysis of Casper FFG</a>라는 주제로 보고서 자료를 발표하였습니다. 짧은 시간이었지만 구성원들의 자발적인 헌신과 열정이 있었기에 가능했습니다. 금번 5기도 블록체인과 암호경제학에 열정을 가지신 분을 초대하고자 합니다.
 
 ### 지원일정
 
@@ -314,7 +314,7 @@ BaaS분과에서는 우선 현존하는 BaaS플랫폼들을 조사하고 특히 
 
 **3차 전화 인터뷰**
 
-* 3차 전화 인퍼뷰 일정: **1월 6일**
+* 3차 전화 인터뷰 일정: **1월 6일**
 * 3차 합격자 발표: **1월 7일** (최종 합격자 한하여 개별적으로 연락)
 
 ### 지원자격
@@ -367,7 +367,7 @@ BaaS분과에서는 우선 현존하는 BaaS플랫폼들을 조사하고 특히 
 
 ### 리서치 내용
 
-4기에서는 <a href="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/fec6ec85-a1d1-42a0-b9f9-6ec85ae1c496/ConsensusinDistributedSystemBYEtherstudy.pdf?AWSAccessKeyId=ASIAT73L2G45O4ZWPAVO&Expires=1545602201&Signature=Z0wSDZ/silHOPqU/Ssg5%2BsTZ6JQ%3D&x-amz-security-token=FQoGZXIvYXdzEIr//////////wEaDOWaqyVb0uY3P/l6ZyK3Aze/1jrWgNoZmHAvCewpa10CoX6YLEAFMSheWuP2Jn%2Bvt8oJdPmnU5rNy5/M5PY/itETNYnmDfczY%2BFod9oSb2B00Uo4vZe6bY%2BX%2BmuRm9pPnskI8FM7DaQqYtkrioWPxVYRELI%2BdCaAPBBmv3ua4T9zdR8gtlXJNQpFszOAdkY3b0K58PybZ1KGEN3zOPWqiUFL6nTwOlahP7ojAZji9BnX6lGWkvNoihjsUrLRjhqzPLRMnMnfHp3tVHdB14aVnP8/lTY8vMTCnbS81tRZeBQ3ORHCljKOxdVIFIL8UagTC/4JBBov/bpYxUnRapYjLHf3o6XGcyEpuZA6nVtN763BLdMKeVVRHTFfJoZtQdsFiLP/u1g6CJ5z0wrea9kkGo/RYZgg/WZQ6MnU987hHnp6G3ULL0VqNY2XhQANt7oz%2Baj9t5Ovd0vXLme2VGspDnqy0CLXOQYI4gquJ6qJvd1defzEQHg/6zbnnm8hn8U%2Bhc9PSVPb18s5ybfDRYJJMOKHqC1jjQzobup0V%2B2BskBEr8eEhiHxwPpSPn9xzna8PaIvlX3N4y9U4Lf/rwO9p/vVnhmSP1Eom9f54AU%3D" target="_blank">Consensus in Distributed Systems</a>라는 주제로 합의하는 과정과 합의를 하는 주체에 관해 알아보았습니다. 추후 연구를 위해 Paxos와 Raft에 대한 연구를 추가적으로 진행할 예정입니다.
+4기에서는 <a href="/documents/Consensus in Distributed System BY Etherstudy.pdf" target="_blank">Consensus in Distributed Systems</a>라는 주제로 합의하는 과정과 합의를 하는 주체에 관해 알아보았습니다. 추후 연구를 위해 Paxos와 Raft에 대한 연구를 추가적으로 진행할 예정입니다.
 
 새로운 파트로는 사용자가 지속적이고 유실되지 않는 서비스를 공급하기 위한 데이터가용성(Data Availability)에 대해 알아보고 솔루션을 찾기 위한 연구를 진행할 예정입니다.
 
