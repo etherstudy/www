@@ -8,7 +8,7 @@ title: 이더리움 연구회 5기 모집
 
 이더리움 연구회 소개: <a href="https://www.etherstudy.net/" target="_blank">홈페이지</a>, <a href="https://www.devstamp.io/" target="_blank">DevStamp 2018</a>, <a href="https://medium.com/etherstudyresearch" target="_blank">Medium 블로그</a>, <a href="https://www.facebook.com/groups/etherstudy/" target="_blank">페이스북 그룹</a>
 
-지원 기간: 2018년 12월 23일 ~ 12월 30일 자정까지
+지원 기간: 2018년 12월 23일 ~ 2019년 1월 6일 자정까지
 
 활동 기간: 2019년 1월 ~ 2019년 4월 30일
 
@@ -21,6 +21,8 @@ title: 이더리움 연구회 5기 모집
 * **이더리움 인터페이스 분과** [모집개요 바로가기](#이더리움 인터페이스 분과 모집 개요)
 * **토큰 이코노미 분과** [모집개요 바로가기](#토큰 이코노미 분과 모집 개요)
 * **기술 리서치 분과** [모집개요 바로가기](#기술 리서치 분과 모집 개요)
+
+기타 궁금한 점은 <a href="mailto:ethereumdeveloper@gmail.com" target="_blank" class="url">ethereumdeveloper@gmail.com으로</a> 문의 부탁드립니다.
 
 
 
